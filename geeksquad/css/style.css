@@ -1,0 +1,35 @@
+
+.container{
+	background-image: url("../images/body-bg.png");
+	background-repeat: repeat-x;
+	position: relative;
+}
+
+.header{
+	height: 127px;
+	position:relative;
+	top:30px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu{
+	border-bottom: 2px solid rgb(210, 222, 228);
+	position: relative;
+	top: 20px;
+	height: 25px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	background: rgb(243, 246, 247);
+	padding: 10px 17px;
+	font-family: Arial;
+	font-weight: 600;
+}
+
+a:hover {
+	background: rgb(210, 222, 228);
+}
